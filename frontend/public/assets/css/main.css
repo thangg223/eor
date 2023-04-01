@@ -1,0 +1,194 @@
+/* CSS cho Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* CSS cho Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-logo {
+  font-size: 2rem;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-link {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* CSS cho HomeScreen */
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.product-card {
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-card h2 {
+  margin: 1rem 0;
+}
+
+.product-card p {
+  margin-bottom: 1rem;
+}
+
+.product-card button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* CSS cho ProductScreen */
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.product-image {
+  width: 50%;
+}
+
+.product-info {
+  width: 40%;
+}
+
+.product-info h2 {
+  margin-bottom: 1rem;
+}
+
+.product-info p {
+  margin-bottom: 1rem;
+}
+
+.product-info button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.product-info button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* CSS cho CartScreen */
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.cart-item {
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.cart-item img {
+  width: 100%;
+}
+
+.cart-item h2 {
+  margin: 1rem 0;
+}
+
+.cart-item p {
+  margin-bottom: 1rem;
+}
+
+.cart-item button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.cart-summary {
+  margin: 2rem;
+}
+
+.cart-summary h2 {
+  margin-bottom: 1rem;
+}
+
+.cart-summary p {
+  margin-bottom: 1rem;
+}
+
+.cart-summary button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: .cart-item button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+

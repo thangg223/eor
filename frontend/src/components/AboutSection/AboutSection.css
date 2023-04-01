@@ -1,0 +1,15 @@
+import React from 'react';
+import './AboutSection.css';
+
+const AboutSection = () => {
+  return (
+    <div className="about-section">
+      <h2 className="about-title">Về chúng tôi</h2>
+      <p className="about-description">
+        Louis Vuitton là một thương hiệu thời trang cao cấp, chuyên cung cấp các sản phẩm túi xách, giày dép, phụ kiện, đồng hồ và nhiều hơn nữa. Chúng tôi tự hào mang đến cho bạn những sản phẩm chất lượng cao, thiết kế đẹp mắt và phong cách độc đáo.
+      </p>
+    </div>
+  );
+};
+
+export default AboutSection;
